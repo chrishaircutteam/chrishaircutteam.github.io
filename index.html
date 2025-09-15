@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Chris Hair Cut Team</title>
+  <title>Chris Hair Cut Team - Landing page</title>
   <!-- SEO Meta Tags -->
   <meta name="description" content="Chris Hair Cut Team - Professional haircuts, hijab-friendly services, and hair treatments in a comfortable and welcoming environment. Look good, feel confident.">
   <meta name="keywords" content="Chris Hair Cut Team, hair salon, haircut, hijab-friendly haircut, barber, hair treatment, stylish haircut, hair care, salon near me, barber shop, hair cut near me, kedai gunting near me, mesra hijab hair cut, kota kinabalu, kingfisher">
@@ -43,7 +43,7 @@
           <li><a href="#hero" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="/gallery.html">Gallery</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -108,7 +108,8 @@
     </section><!-- /About Section -->
 
     <!-- Services Section -->
-<section id="services" class="services section">
+<!-- Services Section -->
+<section id="services" class="services section bg-light"> <!-- tambah bg-light -->
   <div class="container section-title" data-aos="fade-up">
     <h2>Our Services</h2>
     <p>Explore our professional haircuts, coloring, perms, scalp treatments, and specialized hair care plans. Contact us via WhatsApp for consultation and booking.</p>
@@ -118,8 +119,8 @@
     <div class="row g-4">
 
       <!-- Haircut & Styling -->
-      <div class="col-lg-4 col-md-6">
-        <div class="service-box p-4 border rounded shadow-sm bg-light h-100 d-flex flex-column service-hover">
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item p-4 border rounded shadow-sm bg-white h-100 d-flex flex-column service-hover"> <!-- ubah bg-light -> bg-white -->
           <h3 class="mb-3">Haircut & Styling</h3>
           <ul class="list-unstyled mb-0">
             <li class="d-flex align-items-start mb-2"><i class="bi bi-scissors fs-3 me-2 text-success"></i> Female Cut</li>
@@ -131,8 +132,8 @@
       </div>
 
       <!-- Perm & Colour -->
-      <div class="col-lg-4 col-md-6">
-        <div class="service-box p-4 border rounded shadow-sm bg-light h-100 d-flex flex-column service-hover">
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item p-4 border rounded shadow-sm bg-white h-100 d-flex flex-column service-hover"> <!-- ubah bg-light -> bg-white -->
           <h3 class="mb-3">Perm & Colour</h3>
           <ul class="list-unstyled mb-0">
             <li class="d-flex align-items-start mb-2"><i class="bi bi-droplet fs-3 me-2 text-success"></i> Cold Perm (Short/Med/Long/XL)</li>
@@ -146,8 +147,8 @@
       </div>
 
       <!-- Spa & Scalp Treatments -->
-      <div class="col-lg-4 col-md-12">
-        <div class="service-box p-4 border rounded shadow-sm bg-light h-100 d-flex flex-column justify-content-between service-hover">
+      <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item p-4 border rounded shadow-sm bg-white h-100 d-flex flex-column justify-content-between service-hover mt-auto"> <!-- ubah bg-light -> bg-white -->
           <h3 class="mb-3">Spa & Scalp Treatments</h3>
           <ul class="list-unstyled mb-3">
             <li class="d-flex align-items-start mb-2"><i class="bi bi-heart-pulse fs-3 me-2 text-success"></i> Head Spa (Intensive scalp care, hair & shoulder massage)</li>
@@ -164,18 +165,6 @@
   </div>
 </section>
 
-<style>
-.service-hover {
-  transition: all 0.3s ease;
-}
-.service-hover:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-}
-.service-box ul li i {
-  flex-shrink: 0;
-}
-</style>
 
 <!-- /Services Section -->
 
@@ -191,7 +180,7 @@
 
           <div class="col-lg-5">
             <div class="info-wrap">
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="110">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h3>Visit Us</h3>
@@ -200,7 +189,7 @@
                 </div>
               </div>
 
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="120">
                 <i class="bi bi-whatsapp flex-shrink-0 text-success"></i>
                 <div>
                   <h3>WhatsApp Us</h3>
@@ -209,7 +198,7 @@
                 </div>
               </div>
 
-              <div class="d-flex flex-column gap-2 mt-3">
+              <div class="d-flex flex-column gap-2 mt-3" data-aos="fade-up" data-aos-delay="120">
                 <a href="https://wa.me/601111943110" target="_blank" class="btn btn-success d-flex align-items-center justify-content-center gap-2" style="min-width:220px;">
                   <i class="bi bi-scissors"></i> Haircut Team
                 </a>
