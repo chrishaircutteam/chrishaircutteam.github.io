@@ -1213,16 +1213,16 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Portfolio Section
+# gallery Section
 --------------------------------------------------------------*/
-.portfolio .portfolio-filters {
+.gallery .gallery-filters {
   padding: 0 0 20px 0;
   margin: 0 auto;
   list-style: none;
   text-align: center;
 }
 
-.portfolio .portfolio-filters li {
+.gallery .gallery-filters li {
   cursor: pointer;
   display: inline-block;
   padding: 0;
@@ -1233,40 +1233,40 @@ section,
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio .portfolio-filters li:hover,
-.portfolio .portfolio-filters li.filter-active {
+.gallery .gallery-filters li:hover,
+.gallery .gallery-filters li.filter-active {
   color: var(--accent-color);
 }
 
-.portfolio .portfolio-filters li:first-child {
+.gallery .gallery-filters li:first-child {
   margin-left: 0;
 }
 
-.portfolio .portfolio-filters li:last-child {
+.gallery .gallery-filters li:last-child {
   margin-right: 0;
 }
 
 @media (max-width: 575px) {
-  .portfolio .portfolio-filters li {
+  .gallery .gallery-filters li {
     font-size: 14px;
     margin: 0 5px;
   }
 }
 
-.portfolio .portfolio-content {
+.gallery .gallery-content {
   background-color: var(--surface-color);
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
   height: 100%;
   overflow: hidden;
 }
 
-.portfolio .portfolio-content img {
+.gallery .gallery-content img {
   transition: 0.3s;
   position: relative;
   z-index: 1;
 }
 
-.portfolio .portfolio-content .portfolio-info {
+.gallery .gallery-content .gallery-info {
   background-color: var(--background-color);
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   padding: 25px 20px;
@@ -1274,29 +1274,29 @@ section,
   z-index: 2;
 }
 
-.portfolio .portfolio-content .portfolio-info h4 {
+.gallery .gallery-content .gallery-info h4 {
   font-size: 18px;
   font-weight: 600;
   padding-right: 50px;
 }
 
-.portfolio .portfolio-content .portfolio-info h4 a {
+.gallery .gallery-content .gallery-info h4 a {
   color: var(--heading-color);
   transition: 0.3s;
 }
 
-.portfolio .portfolio-content .portfolio-info h4 a:hover {
+.gallery .gallery-content .gallery-info h4 a:hover {
   color: var(--accent-color);
 }
 
-.portfolio .portfolio-content .portfolio-info p {
+.gallery .gallery-content .gallery-info p {
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   font-size: 14px;
   margin-bottom: 0;
   padding-right: 50px;
 }
 
-.portfolio .portfolio-content:hover img {
+.gallery .gallery-content:hover img {
   transform: scale(1.1);
 }
 
@@ -1548,35 +1548,35 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details Section
+# gallery Details Section
 --------------------------------------------------------------*/
-.portfolio-details .portfolio-details-slider img {
+.gallery-details .gallery-details-slider img {
   width: 100%;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.gallery-details .gallery-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.gallery-details .gallery-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: color-mix(in srgb, var(--default-color), transparent 85%);
   opacity: 1;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.gallery-details .gallery-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
 }
 
-.portfolio-details .portfolio-info {
+.gallery-details .gallery-info {
   background-color: var(--surface-color);
   padding: 30px;
   box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
 }
 
-.portfolio-details .portfolio-info h3 {
+.gallery-details .gallery-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1584,27 +1584,27 @@ section,
   border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
-.portfolio-details .portfolio-info ul {
+.gallery-details .gallery-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.gallery-details .gallery-info ul li+li {
   margin-top: 10px;
 }
 
-.portfolio-details .portfolio-description {
+.gallery-details .gallery-description {
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.gallery-details .gallery-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.portfolio-details .portfolio-description p {
+.gallery-details .gallery-description p {
   padding: 0;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
