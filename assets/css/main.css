@@ -1675,6 +1675,22 @@ section,
   color: var(--accent-color);
 }
 
+/* Fix Gallery Image Sizes */
+.gallery .gallery-content img {
+  width: 100%;
+  height: 250px;       /* semua gambar sama tinggi */
+  object-fit: cover;   /* crop gambar biar fit box tanpa distorsi */
+  border-radius: 8px;  /* optional: sudut rounded */
+}
+
+.gallery .gallery-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
